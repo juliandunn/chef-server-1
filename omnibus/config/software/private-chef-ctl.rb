@@ -56,7 +56,7 @@ do
   unset $ruby_env_var
 done
 
-#{install_dir}/embedded/bin/omnibus-ctl opscode #{install_dir}/embedded/service/omnibus-ctl $@
+#{install_dir}/embedded/bin/omnibus-ctl opscode #{install_dir}/embedded/service/omnibus-ctl "$@"
        EOH
     end
   end
